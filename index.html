@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Love Story 💖</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Outfit:wght@400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="hero">
+    <h1>Our Love Was a Story & This Was Its Final Page.</h1>
+    <p>Since the day we met, life has been a beautiful melody...</p>
+  </div>
+
+  <section class="our-story">
+    <h2>Our Story</h2>
+    <p>So, humari beautiful story kuch aise start hui thi --
+    muje insta par request aai and mene accept kia.. Fr baadme humari thodi baat chit hone lagi chat pe and then
+      call pe or fr dheere dheere hum ek ache friend ban gye the..mje starting se aapse baat karna itna acha lagta tha
+      or aapki aawaz yr..🫠 Pta hai aap soch rhe honge ki yeh sb q bata rhi hu mai mje bs mn kar rha ki mai sb vps recap kru. Aapko pta h jb hum friend hi bne the srf tab me didi k yha thi or vha network prblm bht tha
+      msg bhi send nhi ho rhe the toh aapne mje kha ki aeroplane mode on off krke try kro fr msg ky speed se send ho rhe
+      the..😅 or aapki sikhai hui yeh trik mene baadme pta nhi kitne jano ko sikhai..🤭 (Ok back to story )Fr Oct,
+      2019aapne mje propose kar hi dia..🙈( sorry date yaad nhi hai thodi yaadast kamjor hai..🤦🏻‍♀)tabhi mje kch nhi
+      smj aa rha tha ki ky jawab du tb mene bas yhi socha tha ki ek baar apko na bolke pehle hurt kar chuki hu vps nhi
+      kr skti.. Or fr mera answer Haa tha...😌 or vo mere life ka best decision tha..🧿🫶vrna me kbhi nhi jaan pati ki
+      aaj ki time mai true love story exist bhi krti hai. Me bht lucky hu ki aap meri life me aaye..aapse hi mene pyaar ki asli value
+      jaani hai.. apke jitna pyaar koi kar nhi skta. aapki value mere liye 100+ thi or humesha rahegi.Apke pyaar ko words me explain karna bht mushkil hai. Bas
+      itna bol sakti hu aapke sath rehne mai jo sukoon hai vo khi nahi..🥺</p>
+    <p>Or Aapko pta hai fr mera phone ghum gya tha toh aapse jio phone se chat krti thi🤭 or sachi mai bht tough hota tha
+      mere liye q ki aapke msg itne jldi jldi aate the or me toh button hi dhund ne me reh jati thi..🤦🏻‍♀ Baadme humari
+      baat bhi km hoti thi..fr aapko deepa ko msg krke mje batana pdta tha ki aap mera wait kr rhe ho🤭 Uske baad shyd
+      1yr humara aisehi gya.. Fr finally hum first time mile..😍 or kb aapke sath itna time nikal gya pta hi nhi chala.
+      .</p>
+    <p>Aap meri sari zid bhi puri krte the.. ☺ Aapko pta h ek baar aap shopping k liye gye the or mene aapse kha ki mje
+      kiss chahiye or baadme aapne bheji bhi thi🤭 or ek baar ap cctv k kaam se bahar gye the toh mene aapse kha tha ki
+      jor se I love you bolo fr aapne vo bhi zid puri ki haa bt jor se nhi kha tha aapne😒 or jb mene apse kha ki mje
+      apke biceps dekhne h apko ek fit body me dkhna toh apne gym bhi jaana start kr dia tha🙈 or yeh saari baate bht
+      yaad aa rhi h mje.🥺 Aapke bina life hell lag rhi hai.. Pta nhi tha ki ending aisa hoga. Bt abhi pta chl rha h ki
+      sari love story ka ending part sad hi hota hai..😞
+      Meri bs ek last wish hai ki mje humesha se apko success hote huye dkhna tha or mje vo
+      chahiye pta h itna haq nhi h mera aap par. Bt mje pta h ki ap aj bhi mjse utna hi pyaar krte ho toh mere liye itna
+      toh ap kr skte ho na❤ or ho ske toh mje maaf kr dena meri galti k liye..😞
+
+      Love you always..🫶</p>
+  </section>
+
+  <section class="our-moments">
+    <h2>Our Moments</h2>
+    <div class="photos"> 
+      <img src="jn1.jpg" alt="Boy 1">
+      <img src="jn2.jpg" alt="Boy 2">
+      <img src="jn3.jpg" alt="Boy 3">
+      <img src="jn4.jpg" alt="Boy 4">
+    </div>
+  </section>
+
+  <!-- 🎁 Gift Box -->
+  <div class="gift-wrapper">
+    <div class="gift-box" onclick="openGift()">🎁</div>
+    <div class="click-hint">Scroll bottom then Click Here</div>
+  </div>
+
+
+  <!-- Characters -->
+  <div class="characters">
+    <img src="boy.png" class="boy" />
+    <img src="girl.png" class="girl" />
+    <!-- <div class="heart" id="heart">❤️</div> -->
+    <div class="love-heart" id="loveHeart">
+      <div class="heart-fill"></div>
+      <div class="charge-text" id="chargeText">0%</div>
+    </div>
+  </div>
+
+
+
+  <!-- Flower Container -->
+ 
+
+  <!-- 🎵 Music Player -->
+  <div class="music-player">
+    <audio id="audio" src="jn.mp3"></audio>
+    <button id="playPauseBtn">▶</button>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    const isMobile = /Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    if (isMobile) {
+      document.body.innerHTML = `
+      <div style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #2b1d38; color: white; text-align: center; padding: 20px;">
+        <div>
+          <h2>⚠️ Sorry!</h2>
+          <p>This website is only viewable on a laptop or desktop.</p>
+        </div>
+      </div>`;
+    }
+  </script>
+
+</body>
+
+</html>
